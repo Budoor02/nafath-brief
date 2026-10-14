@@ -30,5 +30,8 @@ A Software Bill of Materials (SBOM) is a structured inventory of the components 
 Resource: NTIA — The Minimum Elements For a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
+A common misconception is that a machine-learning model is secure if it achieves high accuracy on ordinary test data. High accuracy on clean examples does not show whether a model can resist deliberately manipulated inputs or poisoned training data. Evasion attacks target model inputs at prediction time, while poisoning attacks affect training data or the training process. Security testing should therefore include relevant adversarial scenarios and controls for data integrity, not only standard accuracy measurements. NIST’s taxonomy explains these attack categories and why they require distinct mitigations.
+Supporting resource section: NIST — Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations, Sections 2 and 3 - https://csrc.nist.gov/pubs/ai/100/2/e2023/final
 
 ## Open Question
+How can a national service provider detect adversarial attacks on AI models while protecting user privacy and keeping essential services reliable?
