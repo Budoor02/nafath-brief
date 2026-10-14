@@ -27,6 +27,7 @@ Resource: RFC Editor - RFC 6811: BGP Prefix Origin Validation - https://www.rfc-
 
 ## Cybersecurity
 Log4Shell (CVE-2021-44228) is a critical remote-code-execution vulnerability in Apache Log4j 2, a Java logging library. Under vulnerable conditions, an attacker could send crafted input that may cause the affected system to execute malicious code. The vulnerability received a CVSS score of 10.0, the highest severity rating. Organizations should identify affected systems, upgrade to a fixed Log4j version suitable for their environment, and investigate signs of exploitation.
+
 Resource: Apache Logging Services — Security - https://logging.apache.org/log4j/2.x/security.html
 
 ## Data
