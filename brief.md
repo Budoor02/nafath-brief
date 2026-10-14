@@ -18,10 +18,17 @@ The OWASP Mobile Application Security Verification Standard (MASVS) gives teams 
 Resource: OWASP — Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
 
 ## Networking
+BGP route hijacking happens when a network announces a route that it is not authorized to originate, potentially diverting internet traffic. Resource Public Key Infrastructure (RPKI) helps reduce this risk through Route Origin Validation, which checks route announcements against signed authorizations from prefix holders. Network operators can use the validation result to apply routing policies to invalid announcements. However, origin validation does not verify every part of the AS path, so it cannot prevent all routing attacks.
+Resource: RFC Editor — RFC 8481: Clarifications to BGP Origin Validation Based on Resource Public Key Infrastructure (RPKI) - https://www.rfc-editor.org/rfc/rfc8481.html
 
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) is a critical remote-code-execution vulnerability in Apache Log4j 2, a Java logging library. Under vulnerable conditions, an attacker could send crafted input that may cause the affected system to execute malicious code. The vulnerability received a CVSS score of 10.0, the highest severity rating. Organizations should identify affected systems, upgrade to a fixed Log4j version suitable for their environment, and investigate signs of exploitation.
+Resource: Apache Logging Services — Security - https://logging.apache.org/log4j/2.x/security.html
 
 ## Data
+A Software Bill of Materials (SBOM) is a structured inventory of the components used to build a software product. NTIA identifies seven minimum data fields: supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. These details help organizations identify affected components when a vulnerability is disclosed and assess where action may be needed. An SBOM improves supply-chain visibility, but it does not by itself guarantee that software is secure.
+Resource: NTIA — The Minimum Elements For a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
+
 ## Misconception in My Track
 
 ## Open Question
